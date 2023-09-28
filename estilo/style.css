@@ -1,1 +1,47 @@
-@charset: UTF-8;
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 20px auto 20px;
+    text-indent: 10px;
+    padding-left: 10px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header, main{
+    background-color: rgb(197, 157, 109);
+    border-radius: 0px 10px;
+    border: solid 2px black;
+}
+
+header{
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+main{
+    padding: 5px 0px 5px 0px;
+}
+
+main img{
+    display: block;
+    margin: auto;
+}
+
+main > ul{
+    list-style-position: inside;
+}
+
+footer > p{
+    background-color: rgb(121, 97, 68);
+    color: white;
+    margin: 10px auto 10px;
+    padding: 4px 0px;
+    text-align: center;
+    border-radius: 4px;
+    border: solid 2px black;
+}
